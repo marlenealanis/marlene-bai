@@ -22,8 +22,10 @@ body {
   }
   
   /* Style for the header */
-  h1 {
-    font-size: 36px; /* Adjust the font size as needed */
-    margin: 0; /* Remove default margin */
+h1 {
+    font-size: 36px;
+    margin: 0;
+    position: absolute; /* Position the h1 absolutely */
+    top: 50%; /* Move the top of the h1 to the vertical center */
+    transform: translateY(-50%); /* Adjust for half of the h1's height */
   }
-  
