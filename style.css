@@ -1,9 +1,29 @@
-h1 {
-    color: auto;
-}
-
-
-img {
-    width:100%;
-    max-width: 500px;
-}
+/* Set the background image */
+body {
+    background-image: url('roughwater.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* You may want to adjust the text color to make it visible on the background */
+    color: whitesmoke; /* Set text color to contrast with the background */
+  }
+  
+  /* Style for the additional image */
+  img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Adjust spacing between image and header */
+  }
+  
+  /* Style for the header */
+  h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    margin: 0; /* Remove default margin */
+  }
+  
