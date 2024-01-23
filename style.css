@@ -27,5 +27,4 @@ h1 {
     margin: 0;
     position: absolute; /* Position the h1 absolutely */
     top: 100%; /* Move the top of the h1 to the vertical center */
-    transform: translateY(-50%); /* Adjust for half of the h1's height */
   }
