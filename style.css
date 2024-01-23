@@ -22,9 +22,11 @@ body {
   }
   
   /* Style for the header */
-h1 {
+  h1 {
     font-size: 36px;
     margin: 0;
-    position: absolute; /* Position the h1 absolutely */
-    top: 100%; /* Move the top of the h1 to the vertical center */
+    position: absolute;
+    top: 0; /* Move the h1 to the very top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for half of the h1's width */
   }
