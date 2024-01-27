@@ -13,20 +13,40 @@ body {
     /* You may want to adjust the text color to make it visible on the background */
     color: whitesmoke; /* Set text color to contrast with the background */
   }
-  
-  /* Style for the additional image */
-  img {
-    width: 300px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 20px; /* Adjust spacing between image and header */
-  }
-  
-  /* Style for the header */
-  h1 {
-    font-size: 36px;
+  body {
+    background-color: #f4f4f4;
     margin: 0;
-    position: absolute;
-    top: 0; /* Move the h1 to the very top */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust for half of the h1's width */
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
   }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .image {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+  
+  .caption {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
